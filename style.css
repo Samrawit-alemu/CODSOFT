@@ -1,0 +1,21 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background: linear-gradient(to right, #121212
+    , #7f00ff);
+    text-align: center;
+    padding: 60px;
+
+
+}
+h1{
+    font-style: Arial;
+    font-size: 48px;
+    color: #cccccc;
+}
+p{
+    font-size: 20px;
+    color: #cccccc;
+    margin-top: 10px;
+}
