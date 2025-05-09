@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <nav>
+    <h1>SAM</h1>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="home" class="main-header">
+    <div class="home-content">
+      <div class="text-content">
+        <p>Hi There! </p>
+        <h1>I am Developer | CSE Student</h1>
+        <div class="header-buttons">
+          <a href="#contact" class="btn contact-btn">Contact Me</a>
+          <a href="Samrawit-Alemu-CV.pdf" class="btn download-btn">Resume</a>
+        </div>
+      </div>
+      <img src="sam.JPG" alt="My photo" class="profile-pic" />
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="intro-container">
+      <div class="intro-text">
+        <p>Who am I?</p>
+        <h1>I'm Samrawit Alemu, a junior web-developer</h1>
+        <p class="role"></p>
+        <p class="about-me">
+          I am a passionate beginner web developer with a solid foundation in Python, JavaScript, and problem-solving through LeetCode challenges.
+          I also work with essential tools like Visual Studio Code and GitHub to build and maintain projects.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-row">
+      <div class="skills-column">
+        <h3 class="title">Programming Languages</h3>
+        <div class="skills-container">
+          <div class="skill-card">Python</div>
+          <div class="skill-card">JavaScript</div>
+        </div>
+      </div>
+
+      <div class="skills-column">
+        <h3 class="title">Web tools</h3>
+        <div class="skills-container">
+          <div class="skill-card">HTML</div>
+          <div class="skill-card">CSS</div>
+        </div>
+      </div>
+
+      <div class="skills-column">
+        <h3 class="title">Tools</h3>
+        <div class="skills-container">
+          <div class="skill-card">Git & GitHub</div>
+          <div class="skill-card">VS Code</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+      <h3>Personal Portfolio</h3>
+      <p>This is my very first project, where I created a personal portfolio using HTML, CSS and JavaScript.</p>
+      <img src="portfolio1.png" alt="My portfolio image" />
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p style="text-align:center; color:#cccccc;">Feel free to reach out through the form below or connect with me on social media.</p>
+    <form class="contact-form" action="https://formspree.io/f/mpwdrbaz" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="social-icons">
+      <a href="https://github.com/Samrawit-alemu" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/samrawit-alemu-/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Samrawit Alemu. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
